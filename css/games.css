@@ -1,0 +1,84 @@
+			.carousel-inner img {
+			width: 100%;
+			height: 100%;
+			}
+			.carousel{
+				margin: 0 auto;
+			}
+			#contaner{
+			    width: 80%;
+			    height: 600px;
+			    margin: 0px auto;
+			    background:url(../img/sky.png);
+			    position: relative;
+			    overflow: hidden;
+			}
+			#contaner #bird{
+			    background:url(../img/bird1.png) no-repeat;
+			    position: absolute;
+			    top: 230px;
+			    width: 30px;
+			    height: 30px;
+			    left: 50%;
+			    border-radius: 20px;
+			    border: 1px solid #09f;
+			}
+			#contaner h2{
+			    font-weight: bold;
+			    color: #fff;
+			    cursor: pointer;
+			    position: relative;
+			    top: 290px;
+			    left: 48%;
+			    width: 100px;
+			}
+			#contaner h2:hover{
+			    color: #09f;
+			    transform: scale(1.2,1.2);
+			    transition: color 0.5s ease-out 0s;
+			}
+			#contaner #success{
+			    width: 300px;
+			    height: 300px;
+			    border-radius: 80px;
+			    background: #09f;
+			    font-weight: bold;
+			    margin: 60px -150px;
+			    position: absolute;
+			    z-index: 999;
+			    left: 50%;
+			    text-align: center;
+			    border: 1px solid #000;
+			    display: none;
+			}
+			#mask{
+			    position: fixed;
+			    top: 0;
+			    left: 0;
+			    right: 0;
+			    bottom: 0;
+			    background: #000;
+			    opacity: 0.8;
+			    z-index: 99;
+			    display: none;
+			}
+			#contaner #success h1{
+			    font-size: 35px;
+			    margin-top: 40px;
+			    color: #f00;
+			}
+			#contaner #success #results,span{
+			    margin-top: 20px;
+			    color: #ff0;
+			    font-size: 20px;
+			    font-weight: bold;
+			}
+			#contaner #co{
+			    color: #fff;
+			    font-weight: bold;
+			    font-size: 30px;
+			    position: fixed;
+			    top: 0;
+			    left: 50%;
+			    z-index: 99;
+			}
